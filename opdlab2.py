@@ -5,7 +5,7 @@ from aiogram import Bot, Dispatcher, executor, types
 def get_giphy_image():
     url = f"https://api.giphy.com/v1/gifs/random"
     params = {
-        "api_key": 'Gdmx42u3B57MNXRGfpDO43TkCkA0gNwS',
+        "api_key": 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
         "tag": 'motivation',
         "rating": "g"
     }
@@ -16,7 +16,7 @@ def get_giphy_image():
     return None
 
 
-API_TOKEN = '7779519184:AAF7edvc430Z_ljj5qOaalTFoXW0HnRZN_0'
+API_TOKEN = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 
 
 logging.basicConfig(level=logging.INFO)
